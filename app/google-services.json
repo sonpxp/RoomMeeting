@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "256518904851",
+    "project_id": "roommeeting-3958e",
+    "storage_bucket": "roommeeting-3958e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256518904851:android:d01aeef13475a06eebf3e6",
+        "android_client_info": {
+          "package_name": "com.sonmob.roommeeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256518904851-vqadop36bpkn0mms7rbcplv8ubgkb8af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sonmob.roommeeting",
+            "certificate_hash": "26d3de91b4bca7205a5cefa000842e47f32240b2"
+          }
+        },
+        {
+          "client_id": "256518904851-2m0dd52c0gpq1eh87nbhb8d4dr9a243d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAewNv8isN9ZnR6fb6DakV5TSl8w_q7hGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256518904851-2m0dd52c0gpq1eh87nbhb8d4dr9a243d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

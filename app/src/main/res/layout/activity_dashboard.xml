@@ -39,49 +39,32 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:textColor="#000"
-                android:text="Please share this code with your friends to start video call." />
+                android:text="Please share this code with your friends to start video call."
+                android:textColor="#000" />
 
             <EditText
-                android:id="@+id/codeBox"
+                android:id="@+id/code_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/btncode"
                 android:ems="10"
                 android:gravity="center"
-                android:hint="Secret Code"
+                android:hint="Code"
                 android:inputType="textPersonName"
-                android:padding="10dp" />
+                android:padding="10dp"
+                tools:ignore="TextFields" />
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_join"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn"
+                android:text="Join"
+                android:textColor="@android:color/white" />
 
-                <Button
-                    android:id="@+id/joinBtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_style_rounded"
-                    android:drawableLeft="@drawable/join"
-                    android:text="Join"
-                    android:textColor="@android:color/white" />
-
-                <Button
-                    android:id="@+id/shareBtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/button_style_rounded_2"
-                    android:drawableLeft="@drawable/share"
-                    android:drawablePadding="20dp"
-                    android:text="Share"
-                    android:textColor="@android:color/white" />
-            </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

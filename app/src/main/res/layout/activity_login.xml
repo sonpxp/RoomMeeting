@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
-            android:text="New Account"
+            android:text="Create Account"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
