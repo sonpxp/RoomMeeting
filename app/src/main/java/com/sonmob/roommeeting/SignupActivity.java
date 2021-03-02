@@ -124,7 +124,7 @@ public class SignupActivity extends AppCompatActivity {
             edEmail.setError("Email Validation!");
             result = false;
         } else if (pass.length() < 6) {
-            edEmail.setError("Password must be at least 6 characters");
+            edPass.setError("Password must be at least 6 characters");
             result = false;
         } else {
             edEmail.setError(null);
